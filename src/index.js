@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './components/About';
+import App from './containers/App';
 
 ReactDOM.render(
     //Que voy a renderizar (el componente) 
-    <About/>,
+    <App/>,
     //Donde lo voy a renderizar
     document.getElementById('app')
 );
